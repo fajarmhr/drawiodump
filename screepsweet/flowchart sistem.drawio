@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T14:19:49.496Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="E_tA87VZWLpJFeZG3XzT" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T14:23:23.188Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="t1vYleWbKmlLVNh1VYBa" version="20.8.5" type="github">
   <diagram id="-KNS_frNK4O9yv3_JdxB" name="Page-1">
     <mxGraphModel dx="1050" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -31,14 +31,14 @@
         <mxCell id="vJ8YAbP-WHLEkj6IoBdA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vJ8YAbP-WHLEkj6IoBdA-10" target="vJ8YAbP-WHLEkj6IoBdA-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vJ8YAbP-WHLEkj6IoBdA-10" value="Testing 4G skenario" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="105" y="510" width="230" height="50" as="geometry" />
+        <mxCell id="vJ8YAbP-WHLEkj6IoBdA-10" value="Testing 4G skenario&lt;br&gt;1. Initial attach&lt;br&gt;2. Handover" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="105" y="515" width="230" height="70" as="geometry" />
         </mxCell>
         <mxCell id="vJ8YAbP-WHLEkj6IoBdA-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vJ8YAbP-WHLEkj6IoBdA-12" target="vJ8YAbP-WHLEkj6IoBdA-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vJ8YAbP-WHLEkj6IoBdA-12" value="Testing 5G skenario" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="420" y="405" width="230" height="50" as="geometry" />
+        <mxCell id="vJ8YAbP-WHLEkj6IoBdA-12" value="Testing 5G skenario&lt;br&gt;1. Initial attach&lt;br&gt;2. False initial attach" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="420" y="405" width="230" height="65" as="geometry" />
         </mxCell>
         <mxCell id="vJ8YAbP-WHLEkj6IoBdA-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vJ8YAbP-WHLEkj6IoBdA-17" target="vJ8YAbP-WHLEkj6IoBdA-4">
           <mxGeometry relative="1" as="geometry">
@@ -88,14 +88,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vJ8YAbP-WHLEkj6IoBdA-22" value="berhasil?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="470" y="495" width="130" height="80" as="geometry" />
+          <mxGeometry x="470" y="510" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vJ8YAbP-WHLEkj6IoBdA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vJ8YAbP-WHLEkj6IoBdA-26" target="vJ8YAbP-WHLEkj6IoBdA-12">
+        <mxCell id="vJ8YAbP-WHLEkj6IoBdA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vJ8YAbP-WHLEkj6IoBdA-26">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="680" y="335" />
-              <mxPoint x="680" y="430" />
+              <mxPoint x="680" y="440" />
+              <mxPoint x="652" y="440" />
             </Array>
+            <mxPoint x="650" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vJ8YAbP-WHLEkj6IoBdA-24" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vJ8YAbP-WHLEkj6IoBdA-23">
